@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.mat-form-field-appearance-outline .mat-form-field-outline-thick{
+    color:#9c1148;
+  }
+
+  @media(max-width:575px){
+
+    .mat-button[_ngcontent-c1], .mat-menu-item[_ngcontent-c1]{
+      font-size: 0.8em !important; 
+    }
+
+    .image-class[_ngcontent-c1]{
+      height: 50px !important;
+    }
+
+    mat-card[_ngcontent-c6]{
+      width: 60vw !important;
+      margin-bottom: 17vh !important;
+    }
+    .my-form[_ngcontent-c6]{
+      width: 45vw !important;
+    }
+
+    .mat-form-field[_ngcontent-c6]{
+      padding-left: 12vw !important;
+    }
+    .example-card[_ngcontent-c9]{
+      height: 60vh !important;
+      width: 70vw !important;
+    }
+  }
